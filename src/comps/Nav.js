@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Nav = () => {
 	return (
 		<nav>
-			<NavLink className="navItem" to="/">
+			<NavLink className="navItem" to="/task-app">
 				To Do List
 			</NavLink>
 			<NavLink className="navItem" to="/Calender">

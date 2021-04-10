@@ -40,7 +40,7 @@ function App() {
 				<Nav />
 				<div className="pageContainer">
 					<Switch>
-						<Route exact path="/">
+						<Route exact path="/task-app">
 							<TaskPage
 								setStatus={setStatus}
 								setTasks={setTasks}
